@@ -1,9 +1,8 @@
-import { NextApiRequest } from "next";
 import sanityClient from "@/lib/sanityClient";
 import { currentUser } from "@clerk/nextjs";
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
-export const GET = async (req: NextApiRequest) => {
+export const GET = async (req: NextRequest | Request) => {
   const user = await currentUser();
   if (!user) {
     return NextResponse.redirect("/sign-in");

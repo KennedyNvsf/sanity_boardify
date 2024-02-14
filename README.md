@@ -23,6 +23,14 @@ Key Features:
 - Sanity CMS
 - shadcnUI & TailwindCSS
 
+### Clerk authentication with sanity issue
+
+After signup it automatically redirects to /create-sanity-user and it should then create a new user doc in the sanity studio
+however the intended does not happen unless manually done so after signing up
+
+```shell
+https://sanity-boardify.vercel.app/create-sanity-user
+```
 
 ### Install packages
 

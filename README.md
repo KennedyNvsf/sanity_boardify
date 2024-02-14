@@ -1,5 +1,5 @@
 # Fullstack Boardify: Next.js 14, Server Actions, React, SanityCMS, Stripe, Tailwind, Typescript
-![image](https://github.com/AntonioErdeljac/next13-trello/assets/23248726/fd260249-82fa-4588-a67a-69bb4eb09067)
+![IMAGE](https://github.com/KennedyNvsf/sanity_boardify/assets/45067556/561778e2-8fe8-4940-a4c6-7dd971249405)
 
 
 This is a repository for Boardify: Next.js 14, Server Actions, React, SanityCMS, Stripe, Tailwind, Typescript
